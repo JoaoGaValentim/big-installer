@@ -17,8 +17,8 @@ Para usar o **Big Installer**, siga os passos abaixo:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/big.git
-cd big
+git clone https://github.com/JoaoGaValentim/big-installer.git
+cd big-installer
 ```
 
 ### 2. Dê permissão de execução para o script
@@ -27,7 +27,12 @@ cd big
 chmod +x big
 ```
 
-Agora o script pode ser executado diretamente com o comando `./big`.
+Agora vamos gerar seu alias
+
+```bash
+chmod +x big && cd ~ && echo "alias big=$HOME/big-installer/big.sh" >> .bashrc # ou .zshrc
+```
+
 
 ### 3. (Opcional) Instalar dependências adicionais
 
