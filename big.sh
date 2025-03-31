@@ -52,7 +52,6 @@ show_help() {
     echo -e "\e[32m🖥️ big desktop [kde, gnome, xfce, mate, cinnamon]\e[0m - \e[33mInstala um ambiente desktop completo\e[0m"
 }
 
-
 # Instala ambiente desktop completo
 install_desktop() {
     case "$1" in
